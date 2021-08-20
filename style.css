@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color: aquamarine;
+    height:60%;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+}
+.btn{
+    padding: 10px 18px;
+}
+.input{
+    padding: 5px;
+}

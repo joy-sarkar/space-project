@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-color">
+        <h1>Welcome To SpaceX</h1>
+        <label for=""><h2>Journy To Moon</h2></label>
+        <br>
+        <input class="input" value="0" type="number" name="" id="moon-quentity">
+        <br>
+        <button onclick="handelQuentity('moon','plaus')" class="btn"><h3>+</h3></button>
+        <button onclick="handelQuentity('moon','minas')" class="btn"><h3>-</h3></button>
+        <h2>Cost$ <span id="moon-total">00</span></h2>
+        <br>
+        <input class="input" value="0" type="number" name="" id="mars-quentity">
+        <br>
+        <label for=""><h2>Journy To Mars</h2></label>
+        <br>
+        <button onclick="handelQuentity('mars','plaus')" class="btn"><h3>+</h3></button>
+        <button onclick="handelQuentity('mars','minas')" class="btn"><h3>-</h3></button>
+        <h2>Cost$ <span id="mars-total">00</span></h2>
+        <br>
+        <h2>Total Cost</h3>
+        <h2>$<span id="total">00</span></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
